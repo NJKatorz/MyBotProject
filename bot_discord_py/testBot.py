@@ -44,7 +44,7 @@ async def degage(ctx, user : discord.User, *reason):
 	await ctx.guild.ban(user, reason = reason)
 	await ctx.send(f"{user} a été ban du serveur : {reason}.")
 
-token = "NzI0NTMyNjIyMjg1NjAyODg4.XvBm6Q.CUr583m_Dxoo_LRN2Jxor5Li6rc"
+token = "NzI0NTMyNjIyMjg1NjAyODg4.GS8bu5.hDFeHsTZFTJn8yULfPaxNDKFNX5MTGpxGXrzeU"
 
 bot.run(token)
 
