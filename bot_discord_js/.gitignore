@@ -10,3 +10,5 @@ package-lock.json
 dist/*
 # but (re)include specific dist directory files, e.g.
 #!frontend-essentials/step-1/dist
+# ignore config.json
+config.json

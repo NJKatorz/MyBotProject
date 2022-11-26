@@ -32,7 +32,7 @@ client.on('message', (message) => {
         }
 });
 
-client.on('ctx', (message, texte) => {
+client.on('ctx', (message, be) => {
 
     if (message.content === prefix + "say") {
         if (message.author.bot){
