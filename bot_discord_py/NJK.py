@@ -27,3 +27,5 @@ async def hey():
 	await bot.say("Hello world")
 
 bot.run(tokenNJK)
+
+
