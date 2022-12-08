@@ -46,3 +46,20 @@ client.on('ctx', (message, be) => {
 });
 
 client.login(token);
+
+/**
+ * {
+    "prefix" : "%",
+    
+    "token" : "OTkzMTAyNjcyNTYxNDQ2OTUz.GRWas8.VLw_1_BCu3FA_ownoX_WhzLEC3wSpsY3enpx20"
+}
+
+# ignore all node_modules folders and nested folders & files
+node_modules
+# ignore the specific VS Code configuration parameters
+.vscode
+# ignore the specific packages versions installed by the developper
+package-lock.json
+# ignore config.json
+config.json
+ */
