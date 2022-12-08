@@ -13,7 +13,7 @@ const client = new Discord.Client({
 
 
 client.once("ready", () => {
-    console.log("I am ready bro");
+    console.log("I am ready bro ! Let's go !");
 
 });
 
