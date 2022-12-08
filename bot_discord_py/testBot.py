@@ -2,6 +2,7 @@ from ast import Delete
 from turtle import filling
 import discord
 from discord.ext import commands
+from config import *
 
 bot = commands.Bot(command_prefix = "!", description = "My bot")
 
@@ -44,7 +45,5 @@ async def degage(ctx, user : discord.User, *reason):
 	await ctx.guild.ban(user, reason = reason)
 	await ctx.send(f"{user} a été ban du serveur : {reason}.")
 
-token = "NzI0NTMyNjIyMjg1NjAyODg4.GS8bu5.hDFeHsTZFTJn8yULfPaxNDKFNX5MTGpxGXrzeU"
-
-bot.run(token)
+bot.run(tokenTestBot)
 

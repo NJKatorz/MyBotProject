@@ -1,6 +1,7 @@
 import discord
 from discord.ext import commands
-""" Token = NzQ5MTk0NjQxNTY3MzgzNjEz.G4HiNH.8NM6HE86xcx7SSg-tCw-KAvu2xTlNWcBfRMM20 """
+
+from config import *
 
 bot = commands.Bot(command_prefix = "$", description = ".")
 
@@ -25,4 +26,4 @@ async def ol(ctx):
 async def hey():
 	await bot.say("Hello world")
 
-bot.run("NzQ5MTk0NjQxNTY3MzgzNjEz.G4HiNH.8NM6HE86xcx7SSg-tCw-KAvu2xTlNWcBfRMM20")
+bot.run(tokenNJK)
