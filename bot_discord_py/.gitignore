@@ -12,3 +12,5 @@ dist/*
 #!frontend-essentials/step-1/dist
 # ignore config.py
 config.py
+# ignore __pycache__
+__pycache__ 
