@@ -1,6 +1,6 @@
 import discord
 from discord.ext import commands
-
+# ke
 from config import *
 
 bot = commands.Bot(command_prefix = "$", description = ".")
